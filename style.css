@@ -1,0 +1,24 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+/* Header Styles */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 3em;
+    margin-top: 50px;
+}
+
+/* Responsive Layout */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2.5em;
+        margin-top: 30px;
+    }
+}
